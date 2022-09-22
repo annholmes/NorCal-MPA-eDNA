@@ -1,0 +1,23 @@
+---
+title: "RDB: Final Formatting"
+author: "Tien Ly"
+date: '2022-08-25'
+output: pdf_document
+---
+
+```{python}
+import re
+import os
+
+os.chdir('/Users/tienly/Desktop/CCFRP_2021/')
+
+with open('MiFish_RDB.txt', 'r' ) as f:
+    content = f.read()
+    # no extra column of genus_species
+    content_new = re.sub('^(>[A-Za-z]+);([A-Za-z]+);([A-Za-z]+);([A-Za-z]+);([A-Za-z]+);([A-Za-z]+);([A-Za-z-]+);([A-Z]+)$', r'\1;\2;\3;\4;\5;\6;\7;\n\8', content, flags = re.M)
+
+with open('MiFish_RDB.txt', 'w' ) as f:
+  f.write(content_new)
+
+print("need to delete the empty line at the end of file")
+```
