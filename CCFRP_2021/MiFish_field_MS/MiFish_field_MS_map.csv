@@ -1,0 +1,9 @@
+﻿run_id,sample_ID,year,month,day,sample_type,location,site,site_type,replicate,barcode,protocol
+S_92,B03210804AMS,2021,8,4,field ,Bodega Head,BH03,MPA,A,MiFish,SuperFi
+S_93,B09210804AMS,2021,8,4,field ,Bodega Head,BH09,REF,A,MiFish,SuperFi
+S_98,C21FNC3AMS,2021,8,8,negative control,,field,,A,MiFish,SuperFi
+S_99,C21FNC3BMS,2021,8,8,negative control,,field,,B,MiFish,SuperFi
+S_96,S03210808AMS,2021,8,8,field ,Stewarts Point,SP03,MPA,A,MiFish,SuperFi
+S_94,S08210807AMS,2021,8,7,field ,Stewarts Point,SP08,MPA,A,MiFish,SuperFi
+S_97,S09210808AMS,2021,8,8,field ,Stewarts Point,SP09,MPA,A,MiFish,SuperFi
+S_95,S17210807AMS,2021,8,7,field ,Stewarts Point,SP17,REF,A,MiFish,SuperFi

@@ -1,0 +1,10 @@
+﻿run_id,sample_ID,year,month,day,sample_type,location,site,site_type,replicate,barcode,protocol
+S_78,C210603RFAMC,2021,6,3,tank,,reef tank,,A,MiFish,Cal eDNA
+S_79,C210603RFBMC,2021,6,3,tank,,reef tank,,B,MiFish,Cal eDNA
+S_80,C210603RFCMC,2021,6,3,tank,,reef tank,,C,MiFish,Cal eDNA
+S_81,C210603RFDMC,2021,6,3,tank,,reef tank,,D,MiFish,Cal eDNA
+S_74,C210603TDAMC,2021,6,3,tank,,tidepool tank,,A,MiFish,Cal eDNA
+S_75,C210603TDBMC,2021,6,3,tank,,tidepool tank,,B,MiFish,Cal eDNA
+S_76,C210603TDCMC,2021,6,3,tank,,tidepool tank,,C,MiFish,Cal eDNA
+S_77,C210603TDDMC,2021,6,3,tank,,tidepool tank,,D,MiFish,Cal eDNA
+S_82,C21PCRNC1MC,2021,,,negative control,,pcr,,,MiFish,Cal eDNA
